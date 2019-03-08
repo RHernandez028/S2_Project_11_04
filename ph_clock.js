@@ -1,15 +1,22 @@
+"use strict";
 /*
    New Perspectives on HTML5 and CSS3, 7th Edition
    Tutorial 9
    Case Problem 4
 
    Countdown Clock for Ticket Ordering
-   Author: 
-   Date:  
+   Author: Gabriel Hernandez
+   Date: 3/6/19  
 
    Filename:   ph_clock.js     
 
 */
+// track the number of minutes left to submit ticket order
+var minsLeft = 0;
+//track thenumber of seconds left within each minute
+var secsLeft = 15;
+//store the number of seconds left to submit ticket order
+var timeLeft = minsLeft * 60 + secsLeft;
 
 
 
